@@ -1,5 +1,5 @@
 # 12 tələbənin məlumatlarını daxil edin
-telebeler_data = [
+students_data = [
     ("Ali", 22, "Bakı Dövlət Universiteti", 91.50),
     ("Aysel", 21, "Azərbaycan Texniki Universiteti", 88.00),
     ("Rəşad", 23, "Xəzər Universiteti", 85.25),
@@ -15,10 +15,10 @@ telebeler_data = [
 ]
 
 # Hər bir tələbəni çərçivə içində göstərən döngü
-for telebe in telebeler_data:
+for students in students_data:
     print("+------------------------------------------+")
-    print(f"| Ad: {telebe[0]:<35} |")
-    print(f"| Yaş: {telebe[1]:<34} |")
-    print(f"| Universitet: {telebe[2]:<28} |")
-    print(f"| Bal: {telebe[3]:<34} |")
+    print(f"| Ad: {students[0]:<35} |")
+    print(f"| Yaş: {students[1]:<34} |")
+    print(f"| Universitet: {students[2]:<28} |")
+    print(f"| Bal: {students[3]:<34} |")
     print("+------------------------------------------+\n")
